@@ -1,0 +1,28 @@
+.card-section {
+  font-family: 'Press Start 2P', cursive;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #333;
+}
+
+.card-title {
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.card-art {
+  border-radius: 12px;
+  filter: drop-shadow(15px 15px 4px #333);
+  border: 1px solid black;
+}
+
+.fetched {
+  margin-top: 2.5rem;
+  font-size: 1.5rem;
+}
+
+.card-link {
+  color: #333333;
+}
