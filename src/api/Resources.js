@@ -30,7 +30,7 @@ const wrapPromise = promise => {
 };
 
 export const randomNumber = async () => {
-  return new Promise(res => setTimeout(() => res(Math.random()), 3000));
+  return new Promise(res => setTimeout(() => res(Math.random()), 2500));
 };
 
 export const createResource = () => {

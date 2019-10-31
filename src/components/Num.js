@@ -5,8 +5,8 @@ export const Num = ({ resource }) => {
 
   return (
     <>
-      <h1>This task was intentionally slowed down by 3 seconds</h1>
-      <div>Your random number is ${n}</div>
+      <h1>This task was intentionally slowed down by 2500ms</h1>
+      <div>Random Number: ${n}</div>
     </>
   );
 };
