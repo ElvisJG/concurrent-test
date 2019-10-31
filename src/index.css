@@ -50,7 +50,7 @@ body {
   border-radius: 8px;
   padding: 1rem;
   font-size: 2rem;
-  width: 30%;
+  max-width: 50%;
   align-self: center;
   color: white;
   background-image: linear-gradient(
