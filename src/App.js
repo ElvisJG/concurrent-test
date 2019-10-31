@@ -9,7 +9,7 @@ const initialResource = createResource();
 function App() {
   const [resource, setResource] = useState(initialResource);
   const [startTransition, isPending] = useTransition({
-    timeoutMs: 2000
+    timeoutMs: 2500
   });
 
   return (
